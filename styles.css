@@ -4,16 +4,12 @@
   text-align: center;
 }
 
-.dice1{
+.dice{
   text-align: center;
   display: inline-block;
 
 }
-.dice2{
-  text-align: center;
-  display: inline-block;
 
-}
 
 body {
   background-color: #393E46;
