@@ -19,13 +19,20 @@ var randomImageSource2 = "images/" + randomImageNumber2;
 
 if (randomImageSource>randomImageSource2){
   document.querySelector("h1").innerHTML = p1 + " Wins!";
+
 }
 else if (randomImageSource<randomImageSource2){
   document.querySelector("h1").innerHTML = p2 + " Wins!";
+
 }
 else {
   document.querySelector("h1").innerHTML = "Draw!";
 }
+
 document.querySelectorAll("img")[0].setAttribute("src", randomImageSource);
 document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
+
+
+
+
 }
